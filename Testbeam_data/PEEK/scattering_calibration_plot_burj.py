@@ -1,11 +1,15 @@
-# execute with      python3 scattering_calibration_plot_burj.py 1       for      Dataset1
-# or                python3 scattering_calibration_plot_burj.py 2       for      Dataset2
-
 import pandas as pd 
 import sys
 import matplotlib.pyplot as plt 
 import math
 import numpy as np
+import csv
+from scipy.optimize import curve_fit
+from scipy import optimize
+from scipy.stats import norm
+import matplotlib.mlab as mlab
+from matplotlib.ticker import PercentFormatter
+import statistics
 
 
 def get_mean(file_name, reference_file_name):
@@ -67,7 +71,7 @@ def highland(material_budget):
 
 def ladderplot_both(file_names_1, file_names_2, reference_file_name_1, reference_file_name_2):
     list_of_material_thicknesses = ([0, 1, 6, 11, 16, 21, 26, 31, 36])
-    material = "Peek"
+    material = "PEEK"
     widths=[]
     materials = []
     ladder_filename = f"ladderplot_{material.lower()}_merged"
@@ -103,11 +107,11 @@ def ladderplot_both(file_names_1, file_names_2, reference_file_name_1, reference
 
     fig, ax = plt.subplots(figsize=(10,10), layout='constrained')
     for i in range(len(list_of_material_thicknesses)):
-        ax.scatter(widths[i], materials[i], label = ('Material Thickness (in mm): ', list_of_material_thicknesses[i]))
+        ax.scatter(widths[i], materials[i], label = (list_of_material_thicknesses[i]))
     ax.set_xlabel('Width (in pixels)', style='normal')
-    ax.set_ylabel('Material Thickness (in mm)')
-    ax.set_title(f'Ladderplot {material} merged')
-    ax.legend()
+    ax.set_ylabel('Material thickness (in mm)')
+    ax.set_title(f'Ladderplot {material} both datasets merged')
+    ax.legend(fontsize=14 ,shadow=True, title='Material thickness (mm):')
     ax.grid()
     ax.set_axisbelow(True)
     plt.xlim([0, 50])
@@ -116,7 +120,7 @@ def ladderplot_both(file_names_1, file_names_2, reference_file_name_1, reference
     
 def ladderplot(file_names, reference_file_name, dataset):
     list_of_material_thicknesses = ([0, 1, 6, 11, 16, 21, 26, 31, 36])
-    material = "Peek"
+    material = "PEEK"
     widths=[]
     materials = []
     
@@ -146,24 +150,110 @@ def ladderplot(file_names, reference_file_name, dataset):
 
     fig, ax = plt.subplots(figsize=(10,10), layout='constrained')
     for i in range(len(list_of_material_thicknesses)):
-        ax.scatter(widths[i], materials[i], label = ('Material Thickness (in mm): ', list_of_material_thicknesses[i]))
+        ax.scatter(widths[i], materials[i], label = (list_of_material_thicknesses[i]))
     ax.set_xlabel('Width (in pixels)', style='normal')
-    ax.set_ylabel('Material Thickness (in mm)')
-    ax.set_title(f'Ladderplot {material} of dataset {str(dataset)}')
-    ax.legend()
+    ax.set_ylabel('Material thickness (in mm)')
+    ax.set_title(f'Ladderplot {material} dataset {str(dataset)}')
+    ax.legend(fontsize=14 , shadow=True, title='Material thickness (mm):')
     ax.grid()
     ax.set_axisbelow(True)
     plt.xlim([0, 50])
     plt.savefig(ladder_filename)
     print("Ladderplot saved as " + ladder_filename)
     
+def calibration_plot(means_list, material_budget_list, material_budget_error_list, std_list, N_list, highland_prediction_list, dataset):
+    x = np.linspace(0.001,1, 400)
+    predic = (highland(x)[0])
+    fig, ax = plt.subplots(figsize=(14,14), layout='constrained')
+    ax.scatter(means_list, material_budget_list, label = 'PEEK') #Plotting data onto the axes
+    ax.errorbar(means_list, material_budget_list, yerr = material_budget_error_list , xerr = std_list/(np.sqrt(N_list)) , fmt="o")
+    #ax.plot(highland_prediction_list, material_budget_list, label = 'Highland')
+    ax.plot(predic, x, label = 'Highland prediction')
+    ax.set_xscale('log')
+    ax.set_yscale('log')
+    ax.set_xlabel('$mean^2$ deviation from reference beam [$mrad^2$]', style='normal')
+    ax.set_ylabel('Material budget')
+    plt.xlim([10, 1000])
+    plt.ylim([0.002, 0.2])
+    ax.grid()
+    ax.legend(fontsize=14 ,shadow=True, title='Material thickness (mm):')
+    if dataset == 1:
+        ax.set_title('Calibration plot PEEK dataset 1')
+        plt.savefig('Burj_calibration_plot_dataset1')
+        print("Calibration plot saved as Burj_calibration_plot_dataset1")
+    elif dataset ==2:
+        ax.set_title('Calibration plot PEEK dataset 2')
+        plt.savefig('Burj_calibration_plot_dataset2')
+        print("Calibration plot saved as Burj_calibration_plot_dataset2")
+    else:  
+        ax.set_title('Calibration Plot PEEK both datasets merged')
+        plt.savefig('Burj_calibration_plot_merged')
+        print("Calibration plot saved as Burj_calibration_plot_merged")
+    plt.show()
+    
+def gauss(x,a,mu,sigma):
+    return a*np.exp(-(x-mu)**2/(2*sigma**2))
+
+def histogram(file_names, reference_file_name, dataset, list_of_material_thicknesses):
+    material = "PEEK"
+    widths=[]
+    help=[]
+    dataframe_list=[]
+    histo_filename = (f"histogram_{material.lower()}_dataset_{dataset}_variablebins")
+
+    for i in range(len(file_names)):
+        if i == 0:
+            dataframe_list.append(pd.read_csv(reference_file_name, delimiter=' ', names= ['Event', 'Timestamp', 'Width', 'Intensity']))
+        dataframe_list.append(pd.read_csv(file_names[i], delimiter=' ', names= ['Event', 'Timestamp', 'Width', 'Intensity']))
+
+    for i in range(len(dataframe_list)):
+        help = dataframe_list[i].loc[:, "Width"]
+        help = help.to_numpy()
+        widths.append(help)
+    startparams_amplitude = [900,800,1300,900,600,500,400,390,380]
+    startparams_mu = [6,8,14,18,23,27,31,35,39]
+    startparams_sigma = [1,1,2,3,4,4,4,5,5]
+    binses = [5,5,6,8,10,12,18,20,24]
+    colors = ["blue", "orange", "green", "red", "violet", "brown", "pink", "gray", "olive"]
+
+    fig, hist = plt.subplots(figsize=(10,10), layout='constrained')
+    binning = 5
+    for i in range(len(widths)):
+        max = widths[i].max()
+        min = widths[i].min()
+        bins = binses[i]
+        binning = bins
+        n, bins, patches = plt.hist(widths[i], bins=binning , label = list_of_material_thicknesses[i], color= colors[i])
+        x = np.linspace(min, max, binning)
+        y = n
+        popt,pcov = curve_fit(gauss,x,y,p0=[startparams_amplitude[i], startparams_mu[i], startparams_sigma[i]])
+        perr = np.sqrt(np.diag(pcov))
+        print("The optimal parameters for fitting a gaussian to the width distribution of scattering from PEEK with thickness " , list_of_material_thicknesses[i] , "mm are: ")
+        print("amplitude " ,popt[0], ", mu ", popt[1], ", sigma ",abs(popt[2]))
+        print("The errors on those are: amplitude " ,perr[0], ", mu ", perr[1], ", sigma ",abs(perr[2]))
+        print("")
+        plt.plot(x,gauss(x,*popt), color="black")
+    hist.set_xlabel('Width (in pixels)', style='normal')
+    hist.set_ylabel('No. of counted width')
+    hist.set_title(f'Histogram {material} dataset {str(dataset)} with changing bins')
+    hist.legend(fontsize=14 ,shadow=True, title='Material thickness (mm):')
+    hist.grid()
+    # plt.gca().yaxis.set_major_formatter(PercentFormatter(1))
+    hist.set_axisbelow(True)
+    plt.xlim([5, 46])
+    plt.savefig(histo_filename, dpi = 300)
+    print("Histogram saved as " + histo_filename)
+    #plt.show()
     
 if __name__ == '__main__':
 
+    plt.rcParams.update({'font.size': 18})
+
     radiation_length_PEEK = 319.6                                       #in mm
-    error_in_radiation_length = 0.5                                     # ~2% error
+    error_in_radiation_length = 1.6                                     # ~2% error
     list_of_material_thicknesses = ([1, 6, 11, 16, 21, 26, 31, 36])     #in mm
-    error_in_material_thickness = 0.05                                   #error in mm
+    list_of_material_thicknesses_with_zero = ([0, 1, 6, 11, 16, 21, 26, 31, 36])     #in mm
+    error_in_material_thickness = 0.1                                   #error in mm
     
     m = len(list_of_material_thicknesses)
 
@@ -186,12 +276,12 @@ if __name__ == '__main__':
     means_list=([])
     std_list=([])
     N_list=([])
-    
 
     ask = input("Do you want to analyse both datasets (y) or just one (n)? ")
     if ask.lower() in ["y","yes"]:
         dataset = 0
         ladderplot_both(files_list_1, files_list_2, reference_file_name_1, reference_file_name_2)
+        histogram(files_list_1, reference_file_name_1, dataset, list_of_material_thicknesses_with_zero)
         for i in range (n):
             help_list = get_mean_both(files_list_1[i], files_list_2[i], reference_file_name_1, reference_file_name_2)
             means_list.append(help_list[0])
@@ -202,10 +292,12 @@ if __name__ == '__main__':
         peek = {'Material Budget Peek': material_budget_list, ' Material Budget error': material_budget_error_list, ' mean-squared deviation angle from reference beam': means_list, ' xerror': xerror}
         plot_data_peek = pd.DataFrame(data=peek)
         plot_data_peek.to_csv('Calibration_data/calibration_data_peek.csv', sep=',', index=False)
+        calibration_plot(means_list, material_budget_list, material_budget_error_list, std_list, N_list, highland_prediction_list, dataset)
     else:
         dataset = int(input("Do you want to analyse dataset 1 or dataset 2 ? "))
         if dataset == 1:
             ladderplot(files_list_1, reference_file_name_1, dataset)
+            histogram(files_list_1, reference_file_name_1, dataset, list_of_material_thicknesses_with_zero)
             for i in range (n):
                 help_list = get_mean(files_list_1[i], reference_file_name_1)
                 means_list.append(help_list[0])
@@ -215,8 +307,10 @@ if __name__ == '__main__':
             peek = {'Material Budget Peek': material_budget_list, ' Material Budget error': material_budget_error_list, ' mean-squared deviation angle from reference beam': means_list, ' xerror': xerror}
             plot_data_peek = pd.DataFrame(data=peek)
             plot_data_peek.to_csv('Calibration_data/calibration_data_peek_dataset1.csv', sep=',', index=False)
+            calibration_plot(means_list, material_budget_list, material_budget_error_list, std_list, N_list, highland_prediction_list, dataset)
         elif dataset == 2:
             ladderplot(files_list_2, reference_file_name_2, dataset)
+            histogram(files_list_2, reference_file_name_2, dataset, list_of_material_thicknesses_with_zero)
             for i in range (n):
                 help_list = get_mean(files_list_2[i], reference_file_name_2)
                 means_list.append(help_list[0])
@@ -226,30 +320,9 @@ if __name__ == '__main__':
             peek = {'Material Budget Peek': material_budget_list, ' Material Budget error': material_budget_error_list, ' mean-squared deviation angle from reference beam': means_list, ' xerror': xerror}
             plot_data_peek = pd.DataFrame(data=peek)
             plot_data_peek.to_csv('Calibration_data/calibration_data_peek_dataset2.csv', sep=',', index=False)
+            calibration_plot(means_list, material_budget_list, material_budget_error_list, std_list, N_list, highland_prediction_list, dataset)
         else:
             print("invalid dataset")
             sys.exit()
+    
 
-    fig, ax = plt.subplots(figsize=(10,10), layout='constrained')
-    ax.scatter(means_list, material_budget_list, label = 'Burj (PEEK)') #Plotting data onto the axes
-    ax.errorbar(means_list, material_budget_list, yerr = material_budget_error_list , xerr = std_list/(np.sqrt(N_list)) , fmt="o")
-    ax.plot(highland_prediction_list, material_budget_list, label = 'Highland')
-    ax.set_xscale('log')
-    ax.set_yscale('log')
-    ax.set_xlabel('$mean^2$ [$mrad^2$]', style='normal')
-    ax.set_ylabel('Material Budget')
-    plt.xlim([10, 1000])
-    ax.legend()
-    if dataset == 1:
-        ax.set_title('Calibration Plot Dataset 1')
-        plt.savefig('Burj_calibration_plot_dataset1')
-        print("Calibration plot saved as Burj_calibration_plot_dataset1")
-    elif dataset ==2:
-        ax.set_title('Calibration Plot Dataset 2')
-        plt.savefig('Burj_calibration_plot_dataset2')
-        print("Calibration plot saved as Burj_calibration_plot_dataset2")
-    else:  
-        ax.set_title('Calibration Plot both datasets merged')
-        plt.savefig('Burj_calibration_plot_merged')
-        print("Calibration plot saved as Burj_calibration_plot_merged")
-    plt.show()
