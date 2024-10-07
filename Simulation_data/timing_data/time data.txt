@@ -1,0 +1,4 @@
+32490.72 s for 100000 events with alu thickness 1000um EM_Opt0 (9h)
+448500.4 s for 100000 events with alu thickness 1000um EM_Opt4 (124h)
+137661.52116465569 for 100000 events ,alu,6000um,EM_Opt0
+183734.87451148033 for 100000 events ,alu,6000um,EM_Opt4

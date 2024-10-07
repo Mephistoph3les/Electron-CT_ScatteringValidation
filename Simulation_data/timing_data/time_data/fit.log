@@ -1,0 +1,4376 @@
+
+
+*******************************************************************************
+Tue Jul 16 11:01:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:01:53 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:03:38 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:03:56 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:04:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:06:12 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:06:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:09:45 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:10:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:12:40 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:12:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:13:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:13:32 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:14:23 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:14:42 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:15:53 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:16:16 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:17:08 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:19:47 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1074.85          +/- 466.3        (43.39%)
+b               = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:19:47 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9378318746e+06   0.00e+00  2.72e+03    1.074846e+03   3.791355e+00
+   4 5.3089516869e+06  -5.20e-08  2.72e-01    7.765365e+02   4.779514e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -5.2031e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 776.536          +/- 513.5        (66.12%)
+b               = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1074.85          +/- 466.3        (43.39%)
+b               = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9378318746e+06   0.00e+00  2.72e+03    1.074846e+03   3.791355e+00
+   4 5.3089516869e+06  -5.20e-08  2.72e-01    7.765365e+02   4.779514e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -5.2031e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 776.536          +/- 513.5        (66.12%)
+b               = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7356617211e+06   0.00e+00  3.34e+03    7.765365e+02   4.779514e+00
+   4 2.8947716436e+06  -3.64e-07  3.34e-01    7.162242e+02   5.317263e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -3.63904e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.6569755703e+06   0.00e+00  3.70e+03    7.162242e+02   5.317263e+00
+   4 1.1966800329e+06  -4.12e-05  3.70e-01    4.908283e+02   5.688779e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -4.11928e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 490.828          +/- 243.8        (49.67%)
+b               = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8454931446e+07   0.00e+00  3.94e+03    4.908283e+02   5.688779e+00
+   4 6.1426740479e+06  -1.72e-03  3.94e-01    1.086187e+03   4.013392e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.72115e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1086.19          +/- 552.3        (50.85%)
+b               = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2659063365e+07   0.00e+00  2.87e+03    1.086187e+03   4.013392e+00
+   4 1.0160488592e+05  -6.36e-06  2.87e-01    7.202880e+02   5.561848e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -6.36444e-11
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 720.288          +/- 71.03        (9.862%)
+b               = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:23:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5122904468e+07   0.00e+00  3.87e+03    7.202880e+02   5.561848e+00
+   4 6.5012601620e+06  -8.64e-05  3.87e-01    1.367112e+03   4.081504e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -8.63866e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1367.11          +/- 568.2        (41.56%)
+b               = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1074.85          +/- 466.3        (43.39%)
+b               = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9378318746e+06   0.00e+00  2.72e+03    1.074846e+03   3.791355e+00
+   4 5.3089516869e+06  -5.20e-08  2.72e-01    7.765365e+02   4.779514e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -5.2031e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 776.536          +/- 513.5        (66.12%)
+b               = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7356617211e+06   0.00e+00  3.34e+03    7.765365e+02   4.779514e+00
+   4 2.8947716436e+06  -3.64e-07  3.34e-01    7.162242e+02   5.317263e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -3.63904e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.6569755703e+06   0.00e+00  3.70e+03    7.162242e+02   5.317263e+00
+   4 1.1966800329e+06  -4.12e-05  3.70e-01    4.908283e+02   5.688779e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -4.11928e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 490.828          +/- 243.8        (49.67%)
+b               = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8454931446e+07   0.00e+00  3.94e+03    4.908283e+02   5.688779e+00
+   4 6.1426740479e+06  -1.72e-03  3.94e-01    1.086187e+03   4.013392e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.72115e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1086.19          +/- 552.3        (50.85%)
+b               = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2659063365e+07   0.00e+00  2.87e+03    1.086187e+03   4.013392e+00
+   4 1.0160488592e+05  -6.36e-06  2.87e-01    7.202880e+02   5.561848e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -6.36444e-11
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 720.288          +/- 71.03        (9.862%)
+b               = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:13 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5122904468e+07   0.00e+00  3.87e+03    7.202880e+02   5.561848e+00
+   4 6.5012601620e+06  -8.64e-05  3.87e-01    1.367112e+03   4.081504e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -8.63866e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1367.11          +/- 568.2        (41.56%)
+b               = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1074.85          +/- 466.3        (43.39%)
+b               = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9378318746e+06   0.00e+00  2.72e+03    1.074846e+03   3.791355e+00
+   4 5.3089516869e+06  -5.20e-08  2.72e-01    7.765365e+02   4.779514e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -5.2031e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 776.536          +/- 513.5        (66.12%)
+b               = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7356617211e+06   0.00e+00  3.34e+03    7.765365e+02   4.779514e+00
+   4 2.8947716436e+06  -3.64e-07  3.34e-01    7.162242e+02   5.317263e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -3.63904e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.6569755703e+06   0.00e+00  3.70e+03    7.162242e+02   5.317263e+00
+   4 1.1966800329e+06  -4.12e-05  3.70e-01    4.908283e+02   5.688779e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -4.11928e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 490.828          +/- 243.8        (49.67%)
+b               = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8454931446e+07   0.00e+00  3.94e+03    4.908283e+02   5.688779e+00
+   4 6.1426740479e+06  -1.72e-03  3.94e-01    1.086187e+03   4.013392e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.72115e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1086.19          +/- 552.3        (50.85%)
+b               = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2659063365e+07   0.00e+00  2.87e+03    1.086187e+03   4.013392e+00
+   4 1.0160488592e+05  -6.36e-06  2.87e-01    7.202880e+02   5.561848e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -6.36444e-11
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 720.288          +/- 71.03        (9.862%)
+b               = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:19 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5122904468e+07   0.00e+00  3.87e+03    7.202880e+02   5.561848e+00
+   4 6.5012601620e+06  -8.64e-05  3.87e-01    1.367112e+03   4.081504e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -8.63866e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1367.11          +/- 568.2        (41.56%)
+b               = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1074.85          +/- 466.3        (43.39%)
+b               = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.9378318746e+06   0.00e+00  2.72e+03    1.074846e+03   3.791355e+00
+   4 5.3089516869e+06  -5.20e-08  2.72e-01    7.765365e+02   4.779514e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -5.2031e-13
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 776.536          +/- 513.5        (66.12%)
+b               = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7356617211e+06   0.00e+00  3.34e+03    7.765365e+02   4.779514e+00
+   4 2.8947716436e+06  -3.64e-07  3.34e-01    7.162242e+02   5.317263e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -3.63904e-12
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 716.224          +/- 379.2        (52.94%)
+b               = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.6569755703e+06   0.00e+00  3.70e+03    7.162242e+02   5.317263e+00
+   4 1.1966800329e+06  -4.12e-05  3.70e-01    4.908283e+02   5.688779e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -4.11928e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 490.828          +/- 243.8        (49.67%)
+b               = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8454931446e+07   0.00e+00  3.94e+03    4.908283e+02   5.688779e+00
+   4 6.1426740479e+06  -1.72e-03  3.94e-01    1.086187e+03   4.013392e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.72115e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1086.19          +/- 552.3        (50.85%)
+b               = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2659063365e+07   0.00e+00  2.87e+03    1.086187e+03   4.013392e+00
+   4 1.0160488592e+05  -6.36e-06  2.87e-01    7.202880e+02   5.561848e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -6.36444e-11
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 720.288          +/- 71.03        (9.862%)
+b               = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:24:26 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a + b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5122904468e+07   0.00e+00  3.87e+03    7.202880e+02   5.561848e+00
+   4 6.5012601620e+06  -8.64e-05  3.87e-01    1.367112e+03   4.081504e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -8.63866e-10
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1367.11          +/- 568.2        (41.56%)
+b               = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:26:07 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:28:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:29:34 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:31:59 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x +c1*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1            c1           
+   0 2.0923234015e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 1.8835036171e+06  -8.42e-03  9.35e-04    1.666395e+02   7.151337e+00  -1.670567e-03
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 1.8835e+06
+rel. change during last iteration : -8.41855e-08
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 613.759
+variance of residuals (reduced chisquare) = WSSR/ndf   : 376701
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 166.639          +/- 486.6        (292%)
+b1              = 7.15134          +/- 1.35         (18.88%)
+c1              = -0.00167057      +/- 0.000649     (38.85%)
+
+correlation matrix of the fit parameters:
+                a1     b1     c1     
+a1              1.000 
+b1             -0.835  1.000 
+c1              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x +c2*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2            c2           
+   0 2.0897664193e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 2.1877772280e+06  -8.48e-01  9.35e-04    1.792187e+03   1.022034e+00   1.868201e-03
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 2.18778e+06
+rel. change during last iteration : -8.47676e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 661.48
+variance of residuals (reduced chisquare) = WSSR/ndf   : 437555
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 1792.19          +/- 524.4        (29.26%)
+b2              = 1.02203          +/- 1.455        (142.3%)
+c2              = 0.0018682        +/- 0.0006995    (37.44%)
+
+correlation matrix of the fit parameters:
+                a2     b2     c2     
+a2              1.000 
+b2             -0.835  1.000 
+c2              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x +c3*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3            c3           
+   0 2.0887237787e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 2.0345991597e+06  -4.43e-01  9.35e-04    1.249410e+03   3.344703e+00   9.807479e-04
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 2.0346e+06
+rel. change during last iteration : -4.42774e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 637.903
+variance of residuals (reduced chisquare) = WSSR/ndf   : 406920
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 1249.41          +/- 505.7        (40.48%)
+b3              = 3.3447           +/- 1.403        (41.95%)
+c3              = 0.000980748      +/- 0.0006746    (68.78%)
+
+correlation matrix of the fit parameters:
+                a3     b3     c3     
+a3              1.000 
+b3             -0.835  1.000 
+c3              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x +c4*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4            c4           
+   0 2.0883620403e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 1.1906920955e+06  -9.63e-02  9.35e-04    4.463422e+02   5.853359e+00  -8.182830e-05
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 1.19069e+06
+rel. change during last iteration : -9.62758e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 487.994
+variance of residuals (reduced chisquare) = WSSR/ndf   : 238138
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 446.342          +/- 386.9        (86.67%)
+b4              = 5.85336          +/- 1.073        (18.34%)
+c4              = -8.18283e-05     +/- 0.000516     (630.6%)
+
+correlation matrix of the fit parameters:
+                a4     b4     c4     
+a4              1.000 
+b4             -0.835  1.000 
+c4              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x +c5*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5            c5           
+   0 2.0916581556e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 5.1912999679e+06  -3.06e-02  9.35e-04    5.254473e+02   6.087892e+00  -1.031431e-03
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 5.1913e+06
+rel. change during last iteration : -3.06238e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1018.95
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.03826e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 525.447          +/- 807.8        (153.7%)
+b5              = 6.08789          +/- 2.241        (36.81%)
+c5              = -0.00103143      +/- 0.001078     (104.5%)
+
+correlation matrix of the fit parameters:
+                a5     b5     c5     
+a5              1.000 
+b5             -0.835  1.000 
+c5              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x +c6*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6            c6           
+   0 2.0883391225e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+  10 6.9193620440e+04  -1.05e-08  9.35e-05    6.167896e+02   5.944748e+00  -1.903762e-04
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 69193.6
+rel. change during last iteration : -1.04733e-13
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 117.638
+variance of residuals (reduced chisquare) = WSSR/ndf   : 13838.7
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 616.79           +/- 93.26        (15.12%)
+b6              = 5.94475          +/- 0.2587       (4.352%)
+c6              = -0.000190376     +/- 0.0001244    (65.34%)
+
+correlation matrix of the fit parameters:
+                a6     b6     c6     
+a6              1.000 
+b6             -0.835  1.000 
+c6              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:34:39 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x +c7*x**2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7            c7           
+   0 2.0913269150e+13   0.00e+00  9.35e+05    1.000000e+00   1.000000e+00   1.000000e+00
+   9 1.0329044422e+06  -2.64e-04  9.35e-04    2.275708e+01   9.055048e+00  -2.472823e-03
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 1.0329e+06
+rel. change during last iteration : -2.64451e-09
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 454.512
+variance of residuals (reduced chisquare) = WSSR/ndf   : 206581
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 22.7571          +/- 360.3        (1583%)
+b7              = 9.05505          +/- 0.9996       (11.04%)
+c7              = -0.00247282      +/- 0.0004806    (19.44%)
+
+correlation matrix of the fit parameters:
+                a7     b7     c7     
+a7              1.000 
+b7             -0.835  1.000 
+c7              0.725 -0.967  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:36:27 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.0841404919e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 4.3792389342e+06  -2.36e-03  6.89e-04    1.074846e+03   3.791355e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.37924e+06
+rel. change during last iteration : -2.36131e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 854.326
+variance of residuals (reduced chisquare) = WSSR/ndf   : 729873
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1074.85          +/- 466.3        (43.39%)
+b1              = 3.79136          +/- 0.4785       (12.62%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5347514387e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 5.3089516869e+06  -1.02e-03  6.89e-04    7.765365e+02   4.779514e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.30895e+06
+rel. change during last iteration : -1.01592e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 940.652
+variance of residuals (reduced chisquare) = WSSR/ndf   : 884825
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 776.536          +/- 513.5        (66.12%)
+b2              = 4.77951          +/- 0.5269       (11.02%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8528392797e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 2.8947716436e+06  -1.58e-03  6.89e-04    7.162242e+02   5.317263e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.89477e+06
+rel. change during last iteration : -1.58465e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 694.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 482462
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 716.224          +/- 379.2        (52.94%)
+b3              = 5.31726          +/- 0.3891       (7.317%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9743584922e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.1966800329e+06  -1.80e-03  6.89e-04    4.908283e+02   5.688779e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.19668e+06
+rel. change during last iteration : -1.79792e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 446.595
+variance of residuals (reduced chisquare) = WSSR/ndf   : 199447
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 490.828          +/- 243.8        (49.67%)
+b4              = 5.68878          +/- 0.2501       (4.397%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2340451554e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.1426740479e+06  -1.72e-03  6.89e-04    1.086187e+03   4.013392e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.14267e+06
+rel. change during last iteration : -1.71917e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1011.82
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02378e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1086.19          +/- 552.3        (50.85%)
+b5              = 4.01339          +/- 0.5667       (14.12%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0133591345e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 1.0160488592e+05  -4.57e-02  6.89e-04    7.202880e+02   5.561848e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 101605
+rel. change during last iteration : -4.5662e-07
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 130.131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 16934.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 720.288          +/- 71.03        (9.862%)
+b6              = 5.56185          +/- 0.07289      (1.311%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 11:42:03 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4358851936e+08   0.00e+00  6.89e+02    1.000000e+00   1.000000e+00
+   6 6.5012601620e+06  -2.57e-03  6.89e-04    1.367112e+03   4.081504e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.50126e+06
+rel. change during last iteration : -2.5742e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1040.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08354e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1367.11          +/- 568.2        (41.56%)
+b7              = 4.0815           +/- 0.5831       (14.29%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.762  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.1101789351e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 4.6037288962e+06  -8.14e-04  6.50e-04    1.198765e+03   3.694475e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.60373e+06
+rel. change during last iteration : -8.13993e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 810.972
+variance of residuals (reduced chisquare) = WSSR/ndf   : 657676
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1198.76          +/- 388.6        (32.41%)
+b1              = 3.69448          +/- 0.4229       (11.45%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5615816044e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 5.8820239388e+06  -4.21e-04  6.50e-04    9.745255e+02   4.624725e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.88202e+06
+rel. change during last iteration : -4.20876e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 916.673
+variance of residuals (reduced chisquare) = WSSR/ndf   : 840289
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 974.525          +/- 439.2        (45.07%)
+b2              = 4.62472          +/- 0.478        (10.34%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8795865283e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 3.5472006508e+06  -6.32e-04  6.50e-04    9.274773e+02   5.152105e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.5472e+06
+rel. change during last iteration : -6.32077e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 711.859
+variance of residuals (reduced chisquare) = WSSR/ndf   : 506743
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 927.477          +/- 341.1        (36.77%)
+b3              = 5.1521           +/- 0.3712       (7.205%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9993696910e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 2.1148325987e+06  -6.77e-04  6.50e-04    7.414356e+02   5.492853e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.11483e+06
+rel. change during last iteration : -6.77148e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 549.653
+variance of residuals (reduced chisquare) = WSSR/ndf   : 302119
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 741.436          +/- 263.4        (35.52%)
+b4              = 5.49285          +/- 0.2866       (5.218%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2610953374e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 6.3838574927e+06  -6.03e-04  6.50e-04    1.214630e+03   3.912975e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.38386e+06
+rel. change during last iteration : -6.02666e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 954.976
+variance of residuals (reduced chisquare) = WSSR/ndf   : 911980
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1214.63          +/- 457.6        (37.67%)
+b5              = 3.91298          +/- 0.498        (12.73%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0236623748e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 1.6899830541e+05  -9.58e-03  6.50e-04    7.881841e+02   5.508766e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 168998
+rel. change during last iteration : -9.57758e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 155.379
+variance of residuals (reduced chisquare) = WSSR/ndf   : 24142.6
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 788.184          +/- 74.45        (9.445%)
+b6              = 5.50877          +/- 0.08103      (1.471%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.718  1.000 
+
+
+*******************************************************************************
+Tue Jul 16 15:28:33 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4585771505e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 6.5164196630e+06  -7.84e-04  6.50e-04    1.399314e+03   4.056328e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.51642e+06
+rel. change during last iteration : -7.83769e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 964.84
+variance of residuals (reduced chisquare) = WSSR/ndf   : 930917
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1399.31          +/- 462.3        (33.04%)
+b7              = 4.05633          +/- 0.5031       (12.4%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.1101789351e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 4.6037288962e+06  -8.14e-04  6.50e-04    1.198765e+03   3.694475e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.60373e+06
+rel. change during last iteration : -8.13993e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 810.972
+variance of residuals (reduced chisquare) = WSSR/ndf   : 657676
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 1198.76          +/- 388.6        (32.41%)
+b1              = 3.69448          +/- 0.4229       (11.45%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 1.5615816044e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 5.8820239388e+06  -4.21e-04  6.50e-04    9.745255e+02   4.624725e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.88202e+06
+rel. change during last iteration : -4.20876e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 916.673
+variance of residuals (reduced chisquare) = WSSR/ndf   : 840289
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 974.525          +/- 439.2        (45.07%)
+b2              = 4.62472          +/- 0.478        (10.34%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 1.8795865283e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 3.5472006508e+06  -6.32e-04  6.50e-04    9.274773e+02   5.152105e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.5472e+06
+rel. change during last iteration : -6.32077e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 711.859
+variance of residuals (reduced chisquare) = WSSR/ndf   : 506743
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 927.477          +/- 341.1        (36.77%)
+b3              = 5.1521           +/- 0.3712       (7.205%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 1.9993696910e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 2.1148325987e+06  -6.77e-04  6.50e-04    7.414356e+02   5.492853e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.11483e+06
+rel. change during last iteration : -6.77148e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 549.653
+variance of residuals (reduced chisquare) = WSSR/ndf   : 302119
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 741.436          +/- 263.4        (35.52%)
+b4              = 5.49285          +/- 0.2866       (5.218%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 1.2610953374e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 6.3838574927e+06  -6.03e-04  6.50e-04    1.214630e+03   3.912975e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.38386e+06
+rel. change during last iteration : -6.02666e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 954.976
+variance of residuals (reduced chisquare) = WSSR/ndf   : 911980
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 1214.63          +/- 457.6        (37.67%)
+b5              = 3.91298          +/- 0.498        (12.73%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 2.0236623748e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 1.6899830541e+05  -9.58e-03  6.50e-04    7.881841e+02   5.508766e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 168998
+rel. change during last iteration : -9.57758e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 155.379
+variance of residuals (reduced chisquare) = WSSR/ndf   : 24142.6
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 788.184          +/- 74.45        (9.445%)
+b6              = 5.50877          +/- 0.08103      (1.471%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:05:14 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 2100.00]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 1.4585771505e+08   0.00e+00  6.50e+02    1.000000e+00   1.000000e+00
+   6 6.5164196630e+06  -7.84e-04  6.50e-04    1.399314e+03   4.056328e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.51642e+06
+rel. change during last iteration : -7.83769e-09
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 964.84
+variance of residuals (reduced chisquare) = WSSR/ndf   : 930917
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 1399.31          +/- 462.3        (33.04%)
+b7              = 4.05633          +/- 0.5031       (12.4%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.718  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:3
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a1 + b1*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            b1           
+   0 1.8196736955e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 8.7337109257e+07  -1.29e-01  1.69e-03    3.343326e+03   6.033881e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 8.73371e+07
+rel. change during last iteration : -1.28622e-06
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2955.29
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.73371e+06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 3343.33          +/- 1136         (33.97%)
+b1              = 0.603388         +/- 0.475        (78.73%)
+
+correlation matrix of the fit parameters:
+                a1     b1     
+a1              1.000 
+b1             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:4
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f2(x)
+	f2(x) = a2 + b2*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a2            b2           
+   0 2.6217829736e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 1.3127494462e+08  -9.79e-02  1.69e-03    3.576147e+03   8.170820e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.31275e+08
+rel. change during last iteration : -9.79086e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3623.19
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.31275e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a2              = 3576.15          +/- 1392         (38.94%)
+b2              = 0.817082         +/- 0.5824       (71.28%)
+
+correlation matrix of the fit parameters:
+                a2     b2     
+a2              1.000 
+b2             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:5
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f3(x)
+	f3(x) = a3 + b3*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a3            b3           
+   0 3.2927216922e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 1.7278116146e+08  -9.21e-02  1.69e-03    3.979024e+03   7.498230e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.72781e+08
+rel. change during last iteration : -9.20987e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4156.7
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.72781e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a3              = 3979.02          +/- 1597         (40.15%)
+b3              = 0.749823         +/- 0.6681       (89.11%)
+
+correlation matrix of the fit parameters:
+                a3     b3     
+a3              1.000 
+b3             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:6
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f4(x)
+	f4(x) = a4 + b4*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a4            b4           
+   0 3.0032440087e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 1.5089595592e+08  -9.66e-02  1.69e-03    3.809051e+03   8.129088e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.50896e+08
+rel. change during last iteration : -9.66368e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3884.53
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.50896e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a4              = 3809.05          +/- 1493         (39.19%)
+b4              = 0.812909         +/- 0.6244       (76.81%)
+
+correlation matrix of the fit parameters:
+                a4     b4     
+a4              1.000 
+b4             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:7
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f5(x)
+	f5(x) = a5 + b5*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a5            b5           
+   0 2.6242071136e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 1.3936411489e+08  -9.23e-02  1.69e-03    3.578407e+03   7.407850e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.39364e+08
+rel. change during last iteration : -9.23423e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3733.15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.39364e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a5              = 3578.41          +/- 1435         (40.09%)
+b5              = 0.740785         +/- 0.6001       (81%)
+
+correlation matrix of the fit parameters:
+                a5     b5     
+a5              1.000 
+b5             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:8
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f6(x)
+	f6(x) = a6 + b6*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a6            b6           
+   0 3.7970794129e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 2.0045867271e+08  -8.17e-02  1.69e-03    4.037813e+03   8.877446e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.00459e+08
+rel. change during last iteration : -8.17461e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4477.26
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.00459e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a6              = 4037.81          +/- 1721         (42.61%)
+b6              = 0.887745         +/- 0.7197       (81.07%)
+
+correlation matrix of the fit parameters:
+                a6     b6     
+a6              1.000 
+b6             -0.660  1.000 
+
+
+*******************************************************************************
+Thu Jul 18 16:06:15 2024
+
+
+FIT:    data read from "timing_data_for_gnuplot.txt" u 2:9
+        format = x:z
+        x range restricted to [0.00000 : 6100.00]
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f7(x)
+	f7(x) = a7 + b7*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a7            b7           
+   0 3.1915062881e+08   0.00e+00  1.69e+03    1.000000e+00   1.000000e+00
+   6 1.5753681028e+08  -9.25e-02  1.69e-03    3.807250e+03   9.113943e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.57537e+08
+rel. change during last iteration : -9.24757e-07
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3969.09
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57537e+07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a7              = 3807.25          +/- 1525         (40.07%)
+b7              = 0.911394         +/- 0.638        (70%)
+
+correlation matrix of the fit parameters:
+                a7     b7     
+a7              1.000 
+b7             -0.660  1.000 
