@@ -281,7 +281,7 @@ def plot_histo(list_of_halves, widths, startparams_amplitude, startparams_mu, st
 
 
 def func(x, p0, p1, p2, p3, p4):
-    return ((p0+p1*(x-p2)**0.5)*(p3+p4*x**2))
+    return ((p0+p1*(x-p2)**0.5)*(p3+p4*x))
 
 def calibrationplot(material_nickel, material_aluminum, means_list_nickel, means_list_aluminum, std_list_nickel, std_list_aluminum, N_list_nickel, N_list_aluminum):   
     radiation_length_nickel = 14.24                       #in mm                                   
@@ -333,10 +333,12 @@ def calibrationplot(material_nickel, material_aluminum, means_list_nickel, means
     
     
     #popt, pcov = curve_fit(polynom, fit_data_means_array, fit_data_material_budgets_array)              #The curve fit can be done with or without start value of parameters
-    popt, pcov = curve_fit(func, fit_data_means_array, fit_data_material_budgets_array, method = 'lm', p0 = [-0.1, 0.3, -0.2, 1.2, 0.01]) 
+    popt, pcov = curve_fit(func, fit_data_means_array, fit_data_material_budgets_array, sigma=fit_yerror_array, method = 'trf', p0 = [-0.1, 0.3, -0.2, 1.2, 0.01], maxfev=100000) 
+    perr = np.sqrt(np.diag(pcov))
     #popt, pcov = curve_fit(func, fit_data_means_array, fit_data_material_budgets_array, sigma=fit_yerror_array, absolute_sigma=True, method = 'lm', p0 = [-0.1, 0.3, -0.2, 1.2, 0.01])
     
-    print('The fit parameters are:  p_0=%5.3f, p_1=%5.3f, p_2=%5.3f, p_3=%5.3f, p_4=%5.3f' % tuple(popt))
+    print('The fit parameters are :  p_0=%5.4f, p_1=%5.4f, p_2=%5.4f, p_3=%5.4f, p_4=%5.8f' % tuple(popt))
+    print("The errors on those are: ", abs(perr[0]), abs(perr[1]), abs(perr[2]), abs(perr[3]), abs(perr[4]))
     condition_number_covariant_matrix = np.linalg.cond(pcov)                    #This is a measurement of overparametrization, everything under 50 is fine. Is it above chances are high there are redundant parameters
     print('Covariant Matrix condition number is: ', condition_number_covariant_matrix)
     matrix_diagonal = np.diag(pcov)                                             #In the Matrix diagonal one can see which parameters cause big uncertainties
@@ -355,18 +357,143 @@ def calibrationplot(material_nickel, material_aluminum, means_list_nickel, means
     ax.plot(highland(highland_y), highland_y, label = 'Highland prediction')
     ax.set_xscale('log')
     ax.set_yscale('log')
-    ax.set_xlabel('$mean^2$ deviation angle from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
-    ax.set_ylabel('Material budget')
+    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{dev}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
+    ax.set_ylabel('Material budget $\epsilon$')
     ax.set_title('Calibration plot')
     ax.grid()
     ax.set_axisbelow(True)
-    plt.xlim([1, 10000])
+    plt.xlim([1, 2000])
     plt.ylim([0.0001, 1])
     plt.savefig('metal_sheet_calibration_plot', dpi = 300)
     func_x=np.arange(1,10000)
-    ax.plot(func_x, func(func_x, *popt), label='fit: p_0=%5.3f, p_1=%5.3f, p_2=%5.3f, p_3=%5.3f, p_4=%5.3f' % tuple(popt))
-    ax.legend(fontsize = 14, shadow=True, title='fit function: (p0+p1*(x-p2)**0.5)*(p3+p4*x**2)')
+    ax.plot(func_x, func(func_x, *popt), label='fit: $p_0=%5.3f$, $p_1=%5.4f$, $p_2=%5.0f$, $p_3=%5.5f$, $p_4=%5.8f$' % tuple(popt))
+    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{dev}^2-p_2)})(p_3+p_4 \\theta_{dev}^2)$')
     plt.savefig('all_data_fit_calibration_plot', dpi = 300)
+
+def calibrationplotplussimulations(data_wentzel,data_urban, data_goudsmit,material_nickel, material_aluminum, means_list_nickel, means_list_aluminum, std_list_nickel, std_list_aluminum, N_list_nickel, N_list_aluminum):   
+    radiation_length_nickel = 14.24                       #in mm                                   
+    radiation_length_aluminum = 88.97                     #in mm   
+    error_in_radiation_length = 0.002                     #considering the decimal value given by pdg 
+    error_in_material_thickness = 0.0002                  #error in mm
+
+    m = len(list_of_material_thicknesses_nickel)
+
+    list_of_material_thicknesses_simulations = ([0.07, 0.2, 0.27, 0.4, 0.6, 1.0, 1.4, 2.0, 3.0, 4.0, 6.0])
+    
+    material_budget_nickel = ([])
+    material_budget_aluminum = ([])
+    material_budget_error_nickel = ([])
+    material_budget_error_aluminum = ([])
+    material_budget_simulations = ([])
+    
+    for i in range (1, m):
+        material_budget_nickel.append(material_nickel[i]/radiation_length_nickel)
+        material_budget_aluminum.append(material_aluminum[i]/radiation_length_aluminum)
+        material_budget_error_nickel_i = np.sqrt(((error_in_material_thickness/radiation_length_nickel)**2+(error_in_radiation_length*material_nickel[i]/(radiation_length_nickel)**2)**2))
+        material_budget_error_aluminum_i = np.sqrt(((error_in_material_thickness/radiation_length_aluminum)**2+(error_in_radiation_length*material_aluminum[i]/(radiation_length_aluminum)**2)**2))
+        material_budget_error_nickel.append(material_budget_error_nickel_i)
+        material_budget_error_aluminum.append(material_budget_error_aluminum_i)
+    for i in range(len(list_of_material_thicknesses_simulations)):
+        material_budget_simulations.append(list_of_material_thicknesses_simulations[i]/radiation_length_aluminum)
+        
+
+    xerror_nickel = std_list_nickel/(np.sqrt(N_list_nickel))
+    xerror_aluminum = std_list_aluminum/(np.sqrt(N_list_aluminum))
+    nickel = {'Material budget nickel': material_budget_nickel, ' Material budget error': material_budget_error_nickel, ' mean-squared deviation angle from reference beam': means_list_nickel, ' xerror': xerror_nickel}
+    plot_data_nickel = pd.DataFrame(data=nickel)
+    aluminum = {'Material budget aluminium': material_budget_aluminum, ' Material budget error': material_budget_error_aluminum, ' mean-squared deviation angle from reference beam': means_list_aluminum, ' xerror': xerror_aluminum}
+    plot_data_aluminum = pd.DataFrame(data=aluminum)
+    plot_data_nickel.to_csv('Calibration_data/calibration_data_nickel.csv', sep=',', index=False)
+    plot_data_aluminum.to_csv('Calibration_data/calibration_data_aluminum.csv', sep=',', index=False) 
+    peek_data = pd.read_csv('../PEEK/Calibration_data/calibration_data_peek.csv', sep=',', skiprows=(1), names= ['Material Budget Peek', 'Material Budget error', 'mean-squared deviation angle from reference beam', 'xerror'])
+    material_budget_peek = list(peek_data.iloc[:, 0])
+    material_budget_error_peek = list(peek_data.iloc[:, 1])
+    means_list_peek = list(peek_data.iloc[:, 2])
+    xerror_peek = list(peek_data.iloc[:, 3])
+    
+    
+    
+    
+    
+    d = 75*10**(-3) # distance metal sheets <-> detector in m
+    data_wentzel.loc[:, ["mean"]] = (np.sqrt((data_wentzel.loc[:, ["mean"]])**2 - (6.30171)**2)) *(55*10**(-6))     #background deduction
+    data_wentzel.loc[:, ["mean"]] = (np.arctan(data_wentzel.loc[:, ["mean"]]/d)*10**(+3))**2
+    data_urban.loc[:, ["mean"]] = (np.sqrt((data_urban.loc[:, ["mean"]])**2 - (6.29351)**2)) *(55*10**(-6))     #background deduction
+    data_urban.loc[:, ["mean"]] = (np.arctan(data_urban.loc[:, ["mean"]]/d)*10**(+3))**2
+    data_goudsmit.loc[:, ["mean"]] = (np.sqrt((data_goudsmit.loc[:, ["mean"]])**2 - (6.28476)**2)) *(55*10**(-6))     #background deduction
+    data_goudsmit.loc[:, ["mean"]] = (np.arctan(data_goudsmit.loc[:, ["mean"]]/d)*10**(+3))**2
+    
+    means_list_wentzel = list(data_wentzel.iloc[:, 1])
+    xerror_wentzel = list((data_wentzel.iloc[:, 2])**2)
+    means_list_urban = list(data_urban.iloc[:, 1])
+    xerror_urban = list((data_urban.iloc[:, 2])**2)
+    means_list_goudsmit = list(data_goudsmit.iloc[:, 1])
+    xerror_goudsmit = list((data_goudsmit.iloc[:, 2])**2)
+    
+    
+    
+    fit_data_means = *means_list_nickel, *means_list_aluminum, *means_list_peek
+    fit_data_material_budgets = *material_budget_nickel, *material_budget_aluminum, *material_budget_peek
+    fit_yerror = *material_budget_error_nickel, *material_budget_error_aluminum, *material_budget_error_peek
+    fit_xerror = *xerror_nickel, *xerror_aluminum, *xerror_peek
+    
+    all_data = {'Material Budget ': fit_data_material_budgets, ' Material budget error': fit_yerror, ' mean-squared deviation angle from reference beam': fit_data_means, ' xerror': fit_xerror}
+    plot_fit_data = pd.DataFrame(data=all_data)
+    plot_fit_data.to_csv('Calibration_data/calibration_data_all.csv', sep=',', index=False) 
+    
+    fit_data_means_array = np.array(fit_data_means)
+    fit_data_material_budgets_array = np.array(fit_data_material_budgets)
+    fit_yerror_array = np.array(fit_yerror)
+    fit_xerror_array = np.array(fit_xerror)
+    
+    
+    #popt, pcov = curve_fit(polynom, fit_data_means_array, fit_data_material_budgets_array)              #The curve fit can be done with or without start value of parameters
+    popt, pcov = curve_fit(func, fit_data_means_array, fit_data_material_budgets_array, sigma=fit_yerror_array, method = 'trf', p0 = [-0.1, 0.3, -0.2, 1.2, 0.01], maxfev=100000) 
+    perr = np.sqrt(np.diag(pcov))
+    #popt, pcov = curve_fit(func, fit_data_means_array, fit_data_material_budgets_array, sigma=fit_yerror_array, absolute_sigma=True, method = 'lm', p0 = [-0.1, 0.3, -0.2, 1.2, 0.01])
+    
+    print('The fit parameters are :  p_0=%5.4f, p_1=%5.4f, p_2=%5.4f, p_3=%5.4f, p_4=%5.8f' % tuple(popt))
+    print("The errors on those are: ", abs(perr[0]), abs(perr[1]), abs(perr[2]), abs(perr[3]), abs(perr[4]))
+    condition_number_covariant_matrix = np.linalg.cond(pcov)                    #This is a measurement of overparametrization, everything under 50 is fine. Is it above chances are high there are redundant parameters
+    print('Covariant Matrix condition number is: ', condition_number_covariant_matrix)
+    matrix_diagonal = np.diag(pcov)                                             #In the Matrix diagonal one can see which parameters cause big uncertainties
+    print('Matrix diagonal is: ', matrix_diagonal)
+
+    fig, ax = plt.subplots(figsize=(14,14), layout='constrained')
+    ax.scatter( means_list_nickel, material_budget_nickel, label = 'Nickel') #Plotting data onto the axes
+    ax.errorbar( means_list_nickel, material_budget_nickel, yerr = material_budget_error_nickel , xerr = xerror_nickel, fmt="o")
+    
+    ax.scatter( means_list_aluminum, material_budget_aluminum, label = 'Aluminium') #Plotting data onto the axes
+    ax.errorbar( means_list_aluminum, material_budget_aluminum, yerr = material_budget_error_aluminum , xerr = xerror_aluminum, fmt="o")
+    
+    ax.scatter( means_list_peek, material_budget_peek, label = 'PEEK') #Plotting data onto the axes
+    ax.errorbar( means_list_peek, material_budget_peek, yerr = material_budget_error_peek , xerr = xerror_peek, fmt="o")
+    highland_y=np.arange(0.0001, 1, 0.0001)
+    ax.plot(highland(highland_y), highland_y, label = 'Highland prediction')
+    
+    ax.scatter( means_list_wentzel, material_budget_simulations, label = 'Wentzel VI aluminium simulation',color="brown") #Plotting data onto the axes
+    ax.errorbar( means_list_wentzel, material_budget_simulations, xerr = xerror_wentzel, fmt="o", color="brown")
+    ax.scatter( means_list_urban, material_budget_simulations, label = 'Urban MSC aluminium simulation', color="darkgreen") #Plotting data onto the axes
+    ax.errorbar( means_list_urban, material_budget_simulations, xerr = xerror_urban, fmt="o", color="darkgreen")
+    ax.scatter( means_list_goudsmit, material_budget_simulations, label = 'Goudsmit Saunderson aluminium simulation', color="purple") #Plotting data onto the axes
+    ax.errorbar( means_list_goudsmit, material_budget_simulations, xerr = xerror_goudsmit, fmt="o", color="purple")
+    
+    
+    ax.set_xscale('log')
+    ax.set_yscale('log')
+    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{dev}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
+    ax.set_ylabel('Material budget $\epsilon$')
+    ax.set_title('Calibration plot with simulations')
+    ax.grid()
+    ax.set_axisbelow(True)
+    plt.xlim([1, 2000])
+    plt.ylim([0.0001, 1])
+    plt.savefig('metal_sheet_calibration_plot', dpi = 300)
+    func_x=np.arange(1,10000)
+    ax.plot(func_x, func(func_x, *popt), label='fit: $p_0=%5.3f$, $p_1=%5.4f$, $p_2=%5.0f$, $p_3=%5.5f$, $p_4=%5.8f$' % tuple(popt))
+    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{dev}^2-p_2)})(p_3+p_4 \\theta_{dev}^2)$')
+    plt.savefig('all_data_fit_calibration_plot_with_simulations', dpi = 300)
+    plt.show()
 
 def calibrationplot_both_alus(material_nickel, material_aluminum, means_list_nickel, means_list_aluminum_1, means_list_aluminum_2, std_list_nickel, _1, std_list_aluminum_2, N_list_nickel, N_list_aluminum_1, N_list_aluminum_2):
     radiation_length_nickel = 14.24                       #in mm                                   
@@ -551,7 +678,13 @@ if __name__ == '__main__':
             calibrationplot(list_of_material_thicknesses_nickel, list_of_material_thicknesses_aluminum, means_list_nickel, means_list_aluminum, std_list_nickel, std_list_aluminum, N_list_nickel, N_list_aluminum)
             #calibrationplot(list_of_material_thicknesses_nickel, list_of_material_thicknesses_aluminum, means_list_nickel, means_list_aluminum_1, std_list_nickel, std_list_aluminum_1, N_list_nickel, N_list_aluminum_1)
             #calibrationplot_both_alus(list_of_material_thicknesses_nickel, list_of_material_thicknesses_aluminum, means_list_nickel, means_list_aluminum_1, means_list_aluminum_2, std_list_nickel, std_list_aluminum_1, std_list_aluminum_2, N_list_nickel, N_list_aluminum_1, N_list_aluminum_2)
-        plt.show()
+        ask = input("Do you want to add the simulation data? ")
+        if ask.lower() in ["y","yes"]:
+            data_wentzel = pd.read_csv('Calibration_data/Wentzel_simulation_data_amended.txt', sep=',', skiprows=(1), names= ['Material Thickness', 'mean', 'mean error'])
+            data_urban = pd.read_csv('Calibration_data/Urban_simulation_data_amended.txt', sep=',', skiprows=(1), names= ['Material Thickness', 'mean', 'mean error'])
+            data_goudsmit = pd.read_csv('Calibration_data/Goudsmit_simulation_data_amended.txt', sep=',', skiprows=(1), names= ['Material Thickness', 'mean', 'mean error'])
+            calibrationplotplussimulations(data_wentzel,data_urban, data_goudsmit,list_of_material_thicknesses_nickel, list_of_material_thicknesses_aluminum, means_list_nickel, means_list_aluminum, std_list_nickel, std_list_aluminum, N_list_nickel, N_list_aluminum)
+    plt.show()
     end_time = time.time()
     print("Computing time was:  ", round(end_time - start_time, 2), " s")
     print("Which in minutes is: ", round((end_time - start_time)/60, 2) , " min")
