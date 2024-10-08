@@ -357,18 +357,18 @@ def calibrationplot(material_nickel, material_aluminum, means_list_nickel, means
     ax.plot(highland(highland_y), highland_y, label = 'Highland prediction')
     ax.set_xscale('log')
     ax.set_yscale('log')
-    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{dev}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
+    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{\mathrm{dev}}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
     ax.set_ylabel('Material budget $\epsilon$')
     ax.set_title('Calibration plot')
     ax.grid()
     ax.set_axisbelow(True)
     plt.xlim([1, 2000])
     plt.ylim([0.0001, 1])
-    plt.savefig('metal_sheet_calibration_plot', dpi = 300)
+    plt.savefig('metal_sheet_calibration_plot', dpi = 400)
     func_x=np.arange(1,10000)
     ax.plot(func_x, func(func_x, *popt), label='fit: $p_0=%5.3f$, $p_1=%5.4f$, $p_2=%5.0f$, $p_3=%5.5f$, $p_4=%5.8f$' % tuple(popt))
-    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{dev}^2-p_2)})(p_3+p_4 \\theta_{dev}^2)$')
-    plt.savefig('all_data_fit_calibration_plot', dpi = 300)
+    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{\mathrm{dev}}^2-p_2)})(p_3+p_4 \\theta_{\mathrm{dev}}^2)$')
+    plt.savefig('all_data_fit_calibration_plot', dpi = 400)
 
 def calibrationplotplussimulations(data_wentzel,data_urban, data_goudsmit,material_nickel, material_aluminum, means_list_nickel, means_list_aluminum, std_list_nickel, std_list_aluminum, N_list_nickel, N_list_aluminum):   
     radiation_length_nickel = 14.24                       #in mm                                   
@@ -471,28 +471,28 @@ def calibrationplotplussimulations(data_wentzel,data_urban, data_goudsmit,materi
     highland_y=np.arange(0.0001, 1, 0.0001)
     ax.plot(highland(highland_y), highland_y, label = 'Highland prediction')
     
-    ax.scatter( means_list_wentzel, material_budget_simulations, label = 'Wentzel VI aluminium simulation',color="brown") #Plotting data onto the axes
-    ax.errorbar( means_list_wentzel, material_budget_simulations, xerr = xerror_wentzel, fmt="o", color="brown")
-    ax.scatter( means_list_urban, material_budget_simulations, label = 'Urban MSC aluminium simulation', color="darkgreen") #Plotting data onto the axes
-    ax.errorbar( means_list_urban, material_budget_simulations, xerr = xerror_urban, fmt="o", color="darkgreen")
-    ax.scatter( means_list_goudsmit, material_budget_simulations, label = 'Goudsmit Saunderson aluminium simulation', color="purple") #Plotting data onto the axes
-    ax.errorbar( means_list_goudsmit, material_budget_simulations, xerr = xerror_goudsmit, fmt="o", color="purple")
+    ax.scatter( means_list_wentzel, material_budget_simulations, label = 'Wentzel VI aluminium simulation',color="brown", marker="*") #Plotting data onto the axes
+    ax.errorbar( means_list_wentzel, material_budget_simulations, xerr = xerror_wentzel, fmt="o", color="brown", marker="*")
+    ax.scatter( means_list_urban, material_budget_simulations, label = 'Urban MSC aluminium simulation', color="darkgreen", marker="+") #Plotting data onto the axes
+    ax.errorbar( means_list_urban, material_budget_simulations, xerr = xerror_urban, fmt="o", color="darkgreen", marker="+")
+    ax.scatter( means_list_goudsmit, material_budget_simulations, label = 'Goudsmit Saunderson aluminium simulation', color="purple", marker="x") #Plotting data onto the axes
+    ax.errorbar( means_list_goudsmit, material_budget_simulations, xerr = xerror_goudsmit, fmt="o", color="purple", marker="x")
     
     
     ax.set_xscale('log')
     ax.set_yscale('log')
-    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{dev}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
+    ax.set_xlabel('$mean^2$ deviation angle $\\theta_{\mathrm{dev}}^2$ from reference beam [$mrad^2$]', style='normal')            #think of a new name for mean... it's technically not a mean
     ax.set_ylabel('Material budget $\epsilon$')
     ax.set_title('Calibration plot with simulations')
     ax.grid()
     ax.set_axisbelow(True)
     plt.xlim([1, 2000])
     plt.ylim([0.0001, 1])
-    plt.savefig('metal_sheet_calibration_plot', dpi = 300)
+    plt.savefig('metal_sheet_calibration_plot', dpi = 400)
     func_x=np.arange(1,10000)
     ax.plot(func_x, func(func_x, *popt), label='fit: $p_0=%5.3f$, $p_1=%5.4f$, $p_2=%5.0f$, $p_3=%5.5f$, $p_4=%5.8f$' % tuple(popt))
-    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{dev}^2-p_2)})(p_3+p_4 \\theta_{dev}^2)$')
-    plt.savefig('all_data_fit_calibration_plot_with_simulations', dpi = 300)
+    ax.legend(fontsize = 14, shadow=True, title='fit function: $\epsilon = (p_0+p_1 \sqrt{(\\theta_{\mathrm{dev}}^2-p_2)})(p_3+p_4 \\theta_{\mathrm{dev}}^2)$')
+    plt.savefig('all_data_fit_calibration_plot_with_simulations', dpi = 400)
     plt.show()
 
 def calibrationplot_both_alus(material_nickel, material_aluminum, means_list_nickel, means_list_aluminum_1, means_list_aluminum_2, std_list_nickel, _1, std_list_aluminum_2, N_list_nickel, N_list_aluminum_1, N_list_aluminum_2):
