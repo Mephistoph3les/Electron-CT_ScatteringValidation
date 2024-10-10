@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
 %%Title: all_alu_data.txt: c1
 %%Creator: ROOT Version 6.30/06
-%%CreationDate: Mon Oct  7 12:38:45 2024
+%%CreationDate: Thu Oct 10 17:34:57 2024
 %%Orientation: Landscape
 %%DocumentNeededResources: ProcSet (FontSetInit)
 %%EndComments
@@ -100,11 +100,11 @@ newpath  gsave  90 r 0 -594 t  28 20 t .25 .25 scale  gsave
  gsave  2948 1620 0 0 C 222.87 894.554 t 0 r /Helvetica findfont 52.2592 sf 0 0 m (20) show NC gr 
  gsave  2948 1620 0 0 C 222.87 1129.72 t 0 r /Helvetica findfont 52.2592 sf 0 0 m (25) show NC gr 
  gsave  2948 1620 0 0 C 222.87 1364.89 t 0 r /Helvetica findfont 52.2592 sf 0 0 m (30) show NC gr 
- gsave  2948 1620 0 0 C 147.555 1095.91 t 90 r /Helvetica findfont 52.2592 sf 0 0 m (Mean width [px]) show NC gr  1 0 0 c 0.35 0.33 0.85 c 1 0 0 c 295 270 m 27 23 d 51 41 d 28 20 d 51 37 d 78 52 d 157 96 d 158 86 d 235 117 d 393 175 d 393 155 d 785
- 277 d s 295 270 m 27 23 d 51 41 d 28 20 d 51 37 d 78 52 d 86 53 d 71 43 d 101 56 d 57 30 d 95 49 d 140 68 d 148 68 d 157 70 d 88 37 d 148 60 d 245 95 d 215 80 d 213 76 d 211 72 d 146 49 d s 15 lw /w 8 def /w2 {w 2 div} def /w3 {w 3 div} def 295 270
- 322 293 373 334 401 354 452 391 530 443 687 539 845 625 1080 742 1473 917 1866 1072 2651 1349 12 { m2} R 3 lw 295 270 m 1 Y s 295 270 m s 295 271 m 3 X s 295 270 m 3 X s 322 293 m 1 Y s 322 293 m s 319 294 m 6 X s 319 293 m 6 X s 373 334 m s 373 334
- m -1 Y s 370 334 m 6 X s 370 333 m 6 X s 401 354 m 1 Y s 401 354 m s 398 355 m 6 X s 398 354 m 6 X s 452 391 m s 452 391 m -1 Y s 449 391 m 6 X s 449 390 m 6 X s 530 443 m s 530 443 m s 527 443 m 6 X s 527 443 m 6 X s 687 539 m s 687 539 m -1 Y s
- 684 539 m 7 X s 684 538 m 7 X s 845 625 m 1 Y s 845 625 m s 841 626 m 7 X s 841 625 m 7 X s 1080 742 m 1 Y s 1080 742 m -1 Y s 1077 743 m 6 X s 1077 741 m 6 X s 1473 917 m 1 Y s 1473 917 m -1 Y s 1470 918 m 6 X s 1470 916 m 6 X s 1866 1072 m 1 Y s
+ gsave  2948 1620 0 0 C 147.555 949.887 t 90 r /Helvetica findfont 52.2592 sf 0 0 m (Mean beam width [px]) show NC gr  1 0 0 c 0.35 0.33 0.85 c 1 0 0 c 295 270 m 27 23 d 51 41 d 28 20 d 51 37 d 78 52 d 157 96 d 158 86 d 235 117 d 393 175 d 393 155 d
+ 785 277 d s 295 270 m 27 23 d 51 41 d 28 20 d 51 37 d 78 52 d 86 53 d 71 43 d 101 56 d 57 30 d 95 49 d 140 68 d 148 68 d 157 70 d 88 37 d 148 60 d 245 95 d 215 80 d 213 76 d 211 72 d 146 49 d s 15 lw /w 8 def /w2 {w 2 div} def /w3 {w 3 div} def 295
+ 270 322 293 373 334 401 354 452 391 530 443 687 539 845 625 1080 742 1473 917 1866 1072 2651 1349 12 { m2} R 3 lw 295 270 m 1 Y s 295 270 m s 295 271 m 3 X s 295 270 m 3 X s 322 293 m 1 Y s 322 293 m s 319 294 m 6 X s 319 293 m 6 X s 373 334 m s 373
+ 334 m -1 Y s 370 334 m 6 X s 370 333 m 6 X s 401 354 m 1 Y s 401 354 m s 398 355 m 6 X s 398 354 m 6 X s 452 391 m s 452 391 m -1 Y s 449 391 m 6 X s 449 390 m 6 X s 530 443 m s 530 443 m s 527 443 m 6 X s 527 443 m 6 X s 687 539 m s 687 539 m -1 Y
+ s 684 539 m 7 X s 684 538 m 7 X s 845 625 m 1 Y s 845 625 m s 841 626 m 7 X s 841 625 m 7 X s 1080 742 m 1 Y s 1080 742 m -1 Y s 1077 743 m 6 X s 1077 741 m 6 X s 1473 917 m 1 Y s 1473 917 m -1 Y s 1470 918 m 6 X s 1470 916 m 6 X s 1866 1072 m 1 Y s
  1866 1072 m -2 Y s 1862 1073 m 7 X s 1862 1070 m 7 X s 2651 1349 m 1 Y s 2651 1349 m -2 Y s 2648 1350 m 5 X s 2648 1347 m 5 X s 0 0 1 c 295 270 m s 295 270 m s 295 270 m 3 X s 295 270 m 3 X s 322 293 m s 322 293 m s 319 293 m 6 X s 319 293 m 6 X s
  373 334 m s 373 334 m s 370 334 m 6 X s 370 334 m 6 X s 401 355 m s 401 355 m -1 Y s 398 355 m 6 X s 398 354 m 6 X s 452 391 m s 452 391 m s 449 391 m 6 X s 449 391 m 6 X s 530 443 m s 530 443 m s 527 443 m 6 X s 527 443 m 6 X s 687 538 m s 687 538
  m s 684 538 m 7 X s 684 538 m 7 X s 845 625 m s 845 625 m s 841 625 m 7 X s 841 625 m 7 X s 1080 743 m s 1080 743 m s 1077 743 m 6 X s 1077 743 m 6 X s 1473 918 m s 1473 918 m -1 Y s 1470 918 m 6 X s 1470 917 m 6 X s 1866 1073 m s 1866 1073 m -1 Y s

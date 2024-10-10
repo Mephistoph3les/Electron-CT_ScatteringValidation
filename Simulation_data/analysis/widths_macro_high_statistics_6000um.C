@@ -20,14 +20,14 @@ void widths_macro_high_statistics_6000um() {
     TH1D* hx3_6000um = static_cast<TH1D*>(f3_6000um->Get(WidthsX.c_str()));
     TH1D* hx6_6000um = static_cast<TH1D*>(f6_6000um->Get(WidthsX.c_str()));
 
-    TCanvas* c1 = new TCanvas("c1","Aluminum 6000um Simulation WidthsX 100000 events",1920,1080);
+    TCanvas* c1 = new TCanvas("c1","Aluminum 6000 um simulation WidthsX 100000 events",1920,1080);
 
     c1->SetGridx();
     c1->SetGridy();
     
     hx2_6000um->SetTitle("aluminum 6000um WidthsX 100000 events");
     hx2_6000um->GetXaxis()->SetTitle("Width X [px]");
-    hx2_6000um->GetYaxis()->SetTitle("# frames");
+    hx2_6000um->GetYaxis()->SetTitle("No. of frames");
     hx2_6000um->GetXaxis()->SetRangeUser(24,35);
     hx3_6000um->GetXaxis()->SetRangeUser(24,35);
     hx6_6000um->GetXaxis()->SetRangeUser(24,35);
@@ -46,7 +46,7 @@ void widths_macro_high_statistics_6000um() {
 
     c1->cd(1);
     TLegend *leg1 = new TLegend(0.1,0.7,0.35,0.9);
-    hx2_6000um->SetTitle("aluminum 6000um Model data comparison");
+    hx2_6000um->SetTitle("Aluminium 6000 um Model data comparison 155 MeV");
     hx2_6000um->Draw("colz");
     hx3_6000um->Draw("same");
     hx6_6000um->Draw("same");

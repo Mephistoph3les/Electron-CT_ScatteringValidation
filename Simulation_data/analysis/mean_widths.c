@@ -299,7 +299,7 @@ void mean_widths() {
 
     EM_Opt1.SetTitle("Aluminium diff. thicknesses model comparison");
     EM_Opt1.GetXaxis()->SetTitle("Alu thickness [#mum]");
-    EM_Opt1.GetYaxis()->SetTitle("Mean width [px]");
+    EM_Opt1.GetYaxis()->SetTitle("Mean beam width [px]");
 
     // Draw the graph !
     EM_Opt1.DrawClone("ACPSLE");

@@ -20,16 +20,20 @@ void widths_macro_high_statistics_6000um_400Mev_gaussfits() {
     TH1D* hx3_6000um = static_cast<TH1D*>(f3_6000um->Get(WidthsX.c_str()));
     TH1D* hx6_6000um = static_cast<TH1D*>(f6_6000um->Get(WidthsX.c_str()));
 
-    TCanvas* c1 = new TCanvas("c1","Aluminum 6000um Simulation WidthsX 100000 events",1920,1080);
+    TCanvas* c1 = new TCanvas("c1","Aluminium 6000 um Simulation WidthsX 100000 events",1920,1080);
 
     c1->cd(1);
 
     c1->SetGridx();
     c1->SetGridy();
     
-    hx2_6000um->SetTitle("Aluminum 6000um model comparison 400MeV");
+    hx2_6000um->SetTitle("Aluminium 6000 um model comparison 400 MeV");
     hx2_6000um->GetXaxis()->SetTitle("Width X [px]");
-    hx2_6000um->GetYaxis()->SetTitle("# frames");
+    hx2_6000um->GetYaxis()->SetTitle("No. of frames");
+    hx3_6000um->GetXaxis()->SetTitle("Width X [px]");
+    hx3_6000um->GetYaxis()->SetTitle("No. of frames");
+    hx6_6000um->GetXaxis()->SetTitle("Width X [px]");
+    hx6_6000um->GetYaxis()->SetTitle("No. of frames");
     hx2_6000um->GetXaxis()->SetRangeUser(9.5,12.5);
     hx3_6000um->GetXaxis()->SetRangeUser(9.5,12.5);
     hx6_6000um->GetXaxis()->SetRangeUser(9.5,12.5);
@@ -48,9 +52,9 @@ void widths_macro_high_statistics_6000um_400Mev_gaussfits() {
 
     
     TLegend *leg1 = new TLegend(0.1,0.7,0.35,0.9);
-    //hx2_6000um->SetTitle("Aluminum 6000um Wentzel VI 400MeV");
-    //hx3_6000um->SetTitle("Aluminum 6000um UrbanMSC 400MeV");
-    //hx6_6000um->SetTitle("Aluminum 6000um Goudsmit Saunderson 400MeV");
+    //hx2_6000um->SetTitle("Aluminium 6000 um Wentzel VI 400 MeV");
+    //hx3_6000um->SetTitle("Aluminium 6000 um Urban Msc 400 MeV");
+    //hx6_6000um->SetTitle("Aluminium 6000 um Goudsmit Saunderson 400 MeV");
     hx2_6000um->Draw("colz");
     hx3_6000um->Draw("same");
     hx6_6000um->Draw("same");
@@ -68,7 +72,7 @@ void widths_macro_high_statistics_6000um_400Mev_gaussfits() {
     leg1->AddEntry(hx3_6000um,"Urban Msc");
     leg1->AddEntry(hx6_6000um,"Goudsmit Saunderson");
     //leg1->AddEntry(f1,"Gauss fit Wentzel VI");
-    //leg1->AddEntry(f2,"Gauss fit Urban MSC");
+    //leg1->AddEntry(f2,"Gauss fit Urban Msc");
     //leg1->AddEntry(f3,"Gauss fit Goudsmit Saunderson");
     leg1->SetTextSize(0.03);
     leg1->Draw();
